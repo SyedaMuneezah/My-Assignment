@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+  <style>
+   h3{
+        color:white;
+        text-align: center;
+        padding: 3px;
+        width: 120px;
+        text-decoration: none;
+        background-color: blueviolet;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+
+  <a href="../index.html"><h3>Home Page</h3></a>
+    <center>
+
+     <br> <br> <br> <br>
+    <form action="">
+
+        <fieldset style="width: 0px;">
+            <legend>Aplication Form</legend>
+        <table border="0">
+
+          <tr>
+
+            <td><label for="name">Full Name</label></td>
+            <td><input type="text" name="fullname" id="name"></td>
+
+          </tr>
+
+          <tr>
+
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="useremail" id="email"></td>
+
+          </tr>
+
+          <tr>
+
+            <td><label for="gender">Gender</label>
+            </td>
+            <td><input type="radio" name="Gender" id="gender">Male
+            <input type="radio" name="Gender" id="gender">Female</td>
+
+          </tr>
+
+          <tr>
+
+            <td><label>Nationality</label></td>
+            <td>
+                <select>
+                    <option disabled selected>Select Nationality</option>
+                    <option value="Pak">Pakistan</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Aus">Australia</option>
+                </select>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td><label for="skill">Skills</label></td>
+            <td>
+                <input type="checkbox" name="" id="skill">Html
+                <input type="checkbox" name="" id="">Css
+                <br>
+                <input type="checkbox" name="" id="">JS
+                <input type="checkbox" name="" id="">VCS
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td><label for="post">Post <br> Applying <br> For</label>
+            </td>
+            <td><input type="radio" name="" id="">Trainee
+            <input type="radio" name="" id="post">Software Engineer
+            <br>
+            <input type="radio" name="" id="">Product Manager
+            <input type="radio" name="" id="">Team Leader
+
+        </td>
+
+          </tr>
+
+          <tr>
+            <td><label for="">Upload <br> Resume</label></td>
+            <td><input type="file" name="" id=""></td>
+          </tr>
+
+          <tr>
+            <td><label for="resume">Pate Your <br> Resume</label></td>
+            <td><textarea name="" id="resume" rows="3">Sample Resume Text..</textarea></td>
+          </tr>
+
+          <tr>
+            <td colspan="3"><input type="checkbox" name="" id="" checked>Notify me the status via Email</td>
+          </tr>
+
+          <tr>
+            <td colspan="3"><input type="radio" name="" id="" colspan>I agree to the terms and condition</td>
+          </tr> 
+
+          <tr>
+            <td colspan="3" align="center"><input type="submit" value="Submit">
+            <input type="reset" value="Reset"></td>
+          </tr>
+        </table>
+
+    </fieldset>
+
+    </form>
+
+</center>
+
+</body>
+</html>
