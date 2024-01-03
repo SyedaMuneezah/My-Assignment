@@ -71,6 +71,8 @@ nav ul li i {
     height: 200;
     /* border: 1px solid black; */
     margin: 20px;
+    display: inline-block;
+    
 }
 
 .container .box .para{
@@ -110,3 +112,99 @@ nav ul li i {
     top: 0;
    
 }
+
+.image{
+ position: relative;
+ top: 15px;
+ left: -15px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ width: 450px;
+ height: 280px;
+}
+
+#one{
+position: absolute;
+left: 300px;
+top: 580px;
+font-size: 32px;
+font-weight: bold;
+}
+
+#two{
+    width: 430px;
+    height: 710px;
+    border: 1px solid black;
+    position: absolute;
+    top: 750px;
+    left: 290px;
+    border-radius: 5px;
+}
+
+#two p{
+    /* border: 1px solid ; */
+     width: 200px;
+    height: 100px; 
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px; 
+    margin-left: 8px;
+}
+
+#two .img1{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+#two .img2{
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+#two .img3{
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+#rec{
+    position: absolute;
+    left: 292px;
+    top: 694px;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    letter-spacing: 2px;
+}
+
+#aside{
+    width: 220px;
+    height: 1310px;
+    border: 2px solid orange;
+    position: absolute;
+    top: 320px;
+    left: 750px;
+    border-radius: 5px;
+}
+
+#aside p{
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+}
+
+#pop{
+    background-color: rgba(212, 212, 212, 0.945);
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 6px; 
+    margin-top: 0px;
+
+}
+
