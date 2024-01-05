@@ -208,3 +208,72 @@ font-weight: bold;
 
 }
 
+#hr{
+    position: absolute;
+    top: 1700px;
+    left: 300px;
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 600px;
+}
+
+#hr img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 18px;
+
+}
+
+#hr p{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 400px;
+    font-size: 25px;
+    margin-left: 25px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+
+}
+
+#icon1{
+    font-size: 30px;
+    position: relative;
+    top: -35px;
+    left: 10px;
+    color: grey;
+}
+
+#icon2{
+    font-size: 30px;
+    position: relative;
+    top: -35px;
+    color: gray;
+     
+}
+
+.hr1{
+    margin-top: 40px;
+
+}
+.span{
+    position: absolute;
+    left: 230px;
+    bottom: -15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.span #span1{
+    color: rgb(0, 93, 139);
+}
+
+.span #span2{
+    color: rgb(0, 66, 100);;
+}
+
+.hr2{
+    position: relative;
+    left: 365px;
+    top: -20px;
+}
