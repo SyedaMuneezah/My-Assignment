@@ -217,7 +217,7 @@ font-weight: bold;
     width: 600px;
 }
 
-#hr img{
+#hr #circle{
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -226,7 +226,7 @@ font-weight: bold;
 
 }
 
-#hr p{
+#hr #paralarge{
     display: inline-block;
     /* border: 1px solid black; */
     width: 400px;
@@ -257,6 +257,8 @@ font-weight: bold;
     margin-top: 40px;
 
 }
+
+
 .span{
     position: absolute;
     left: 230px;
@@ -276,4 +278,27 @@ font-weight: bold;
     position: relative;
     left: 365px;
     top: -20px;
+}
+
+ .container3{
+    width: 650px;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    position:absolute;
+
+}
+
+.box3{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+
+.box3 img{
+    width:95%;
+} 
+
+.life h1{
+    font-family: 'Oswald', sans-serif;   
 }
