@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/html.png" type="image/x-icon">
+    <title>HTML Project</title>
+</head>
+
+<body>
+
+    <!------------ Navbar ------------>
+
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="schedule.html">
+                    <li>Schedule</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                <a href="faqs.html">
+                    <li>Faqs</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <hr />
+    <br />
+
+    <!----------------- Contact Form -------------->
+
+    <h1>Contact Form</h1>
+
+    <fieldset style="width:350px">
+
+     <legend><b>Contact Form</b></legend>   
+
+    <form action="thankyou.html">
+
+        <br />
+
+        <label for="name">Enter Full Name</label>
+        <input type="text" name="fullname" id="name" placeholder="Dev Trio" required>
+        <br />
+        <br />
+
+        <label for="email">Enter Your Email</label>
+        <input type="email" name="useremail" id="email" placeholder="abc@gmail.com" required>
+        <br />
+        <br />
+
+        <label for="number">Enter Your Phone</label>
+        <input type="number" name="usernumber" id="number" placeholder="0310-0000000" required>
+        <br />
+
+        <p>Select Your Gender</p>
+
+        <input type="radio" name="gender" id="male" value="Male" required>
+        <label for="male">Male</label>
+
+
+        <input type="radio" name="gender" id="female" value="Female" required>
+        <label for="female">Female</label>
+
+
+        <input type="radio" name="gender" id="others" value="Others" required>
+        <label for="others">Others</label>
+
+        <br />
+        <br />
+
+        <label for="id">Your ID</label>
+        <input type="text" name="userid" id="id" placeholder="102030" readonly>
+
+        <br />
+        <br />
+
+        <select name="select" required>
+
+            <option value="">Select Country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+            <option value="Newzealand">Newzealand</option>
+
+        </select>
+
+        <br />
+        <br />
+
+        <label for="text">Message</label> <br />
+        <textarea name="message" id="text" cols="30" rows="10" required></textarea>
+        <br />
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</fieldset>
+
+    <!----------------- Footer ---------------->
+    <footer>
+        <p> &copy; 2024 devtrio All rights reserved</p>
+    </footer>
+</body>
+
+</html>
